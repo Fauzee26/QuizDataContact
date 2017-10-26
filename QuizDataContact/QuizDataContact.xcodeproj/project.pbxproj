@@ -15,6 +15,10 @@
 		A0FA017C1FA1E3FE00B4EFC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0FA017A1FA1E3FE00B4EFC0 /* LaunchScreen.storyboard */; };
 		A0FA01871FA1E3FF00B4EFC0 /* QuizDataContactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FA01861FA1E3FF00B4EFC0 /* QuizDataContactTests.swift */; };
 		A0FA01921FA1E3FF00B4EFC0 /* QuizDataContactUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FA01911FA1E3FF00B4EFC0 /* QuizDataContactUITests.swift */; };
+		A0FA01A01FA1E6CB00B4EFC0 /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FA019F1FA1E6CB00B4EFC0 /* ContactTableViewController.swift */; };
+		A0FA01A21FA1E6DA00B4EFC0 /* DraftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FA01A11FA1E6DA00B4EFC0 /* DraftTableViewCell.swift */; };
+		A0FA01A41FA1E71B00B4EFC0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FA01A31FA1E71B00B4EFC0 /* DetailViewController.swift */; };
+		A0FA01A61FA1E72800B4EFC0 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FA01A51FA1E72800B4EFC0 /* InputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		A0FA018D1FA1E3FF00B4EFC0 /* QuizDataContactUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizDataContactUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0FA01911FA1E3FF00B4EFC0 /* QuizDataContactUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizDataContactUITests.swift; sourceTree = "<group>"; };
 		A0FA01931FA1E40000B4EFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0FA019F1FA1E6CB00B4EFC0 /* ContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
+		A0FA01A11FA1E6DA00B4EFC0 /* DraftTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftTableViewCell.swift; sourceTree = "<group>"; };
+		A0FA01A31FA1E71B00B4EFC0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A0FA01A51FA1E72800B4EFC0 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				A0FA016E1FA1E3FC00B4EFC0 /* AppDelegate.swift */,
 				A0FA01701FA1E3FC00B4EFC0 /* ViewController.swift */,
 				A0FA01721FA1E3FD00B4EFC0 /* Main.storyboard */,
+				A0FA01A31FA1E71B00B4EFC0 /* DetailViewController.swift */,
+				A0FA01A51FA1E72800B4EFC0 /* InputViewController.swift */,
+				A0FA019F1FA1E6CB00B4EFC0 /* ContactTableViewController.swift */,
+				A0FA01A11FA1E6DA00B4EFC0 /* DraftTableViewCell.swift */,
 				A0FA01781FA1E3FE00B4EFC0 /* Assets.xcassets */,
 				A0FA017A1FA1E3FE00B4EFC0 /* LaunchScreen.storyboard */,
 				A0FA017D1FA1E3FE00B4EFC0 /* Info.plist */,
@@ -262,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0FA01A01FA1E6CB00B4EFC0 /* ContactTableViewController.swift in Sources */,
 				A0FA01771FA1E3FD00B4EFC0 /* QuizDataContact.xcdatamodeld in Sources */,
 				A0FA01711FA1E3FC00B4EFC0 /* ViewController.swift in Sources */,
+				A0FA01A61FA1E72800B4EFC0 /* InputViewController.swift in Sources */,
+				A0FA01A41FA1E71B00B4EFC0 /* DetailViewController.swift in Sources */,
+				A0FA01A21FA1E6DA00B4EFC0 /* DraftTableViewCell.swift in Sources */,
 				A0FA016F1FA1E3FC00B4EFC0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
